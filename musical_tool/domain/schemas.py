@@ -1,33 +1,10 @@
-from typing import List
+from typing import List, Dict
 from pydantic import BaseModel
 
 
-class BaseOrm(BaseModel):
-    class Config:
-        orm_mode = True
-
-
-class Analysis(BaseOrm):
-    user_name: str
-    user_group: str
-    param_low: str
-    param_high: str
-    id_music: int
-
-
-class Music(BaseOrm):
-    music_name: str
-
-
-class Time(BaseOrm):
-    id_analysis: int
-    timestamp: int
-    value: float
-
-
-class AnalysisRequest(BaseOrm):
-    group: str
+class Analysis(BaseModel):
     music: str
-    musicAnalysis: List[dict]
+    group: str
+    musicAnalysis: List[Dict[str, int]]
     name: str
     params: List[str]

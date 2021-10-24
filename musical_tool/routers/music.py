@@ -11,3 +11,6 @@ router = APIRouter()
 def create_analysis(request: schemas.Analysis):
     actions.register_analysis(analysis_object=jsonable_encoder(request))
 
+@router.get("/musics", status_code=status.HTTP_200_OK)
+def get_musics():
+    return actions.list_musics()

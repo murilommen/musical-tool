@@ -1,28 +1,20 @@
 {
     "analysis_list": [
         {
-            "music": "Performance 1 (Músicos: João, Guilherme, Giovani)",
-            "path": "1xt1RRDc6MEjJgjpXq2uq1pNaBPvXy4Mm"
-        },
-        {
-            "music": "Performace 2 (Músicos: Tarita, Rodrigo, Vitor)",
-            "path": "1sz6St-Oh2mkmrtoJBloileWmr5K1z3Lz"
-        },
-         {
-            "music": "Performace 3 (Músicos: Tarita, Vitor, Giovani)",
-            "path": "1o3b5mbuDtU07ZPqP1__rSRctAnOv_wxm"
-        },
-        {
-            "music": "Performace 4 (Músicos: Arthur, Rodrigo, Guilherme)",
-            "path": "1qGxyczKBdsJ4rQHVIJEiypecFUvwoM1x"
-        },
-        {
             "music": "Imp. 1, Ensaio 1, Grupo 1 - 31/03",
             "path": "1SHlxCsSapPCH7SrzYObMoUtr9SwuE_VF"
         },
         {
             "music": "Imp. 2, Ensaio 1, Grupo 1 - 31/03",
             "path": "1eRXGidQUzJsJQcohVKkwH7zFimBOQF0T"
+        },
+        {
+            "music": "Imp. 1, Ensaio 2, Grupo 1 - 07/04",
+            "path": "1PaksmjgJknx2Y2HTBmOStzjCtuV5GSAo"
+        },
+        {
+            "music": "Imp. 1, Ensaio 1, Grupo 2 - 07/04",
+            "path": "1PaksmjgJknx2Y2HTBmOStzjCtuV5GSAo"
         }
     ]
 }

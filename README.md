@@ -9,7 +9,7 @@ The Database used for this application is a NoSQL MongoDB, that is hosted in the
 
 ## API Documentation
 
-The API documentations and testing Endpoints can be found [here](https://music-tool-api.herokuapp.com/docs). 
+The API documentations and testing Endpoints can be found [here](https://d8gfn7.deta.dev/docs). 
 
 - **/analysis**: Is a *POST* endpoint to send an Analysis Object to the Database
 - **/musics**: Is a *GET* endpoint to get the available musics from the `musics.json` file

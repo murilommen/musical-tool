@@ -4,6 +4,8 @@ on: push
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: music-tool-api
     steps:
       - uses: actions/checkout@v2 
       - uses: BogDAAAMN/deta-deploy-action@v1.0.1
